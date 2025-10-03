@@ -17,7 +17,7 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 
 // Player variables
 const player = {
-  x: 50,
+  x: 300,
   y: 700,
   speedX: 0,
   speedY: 0,
@@ -45,7 +45,7 @@ const keyPress = {
 
 // Player animation variables
 const animationTypes = {
-  duck: "duck",
+  duck: "lazer",
   flyingJump: "flying-jump",
   frontDeath: "front-death",
   frontIdle: "front-idle",
@@ -72,7 +72,7 @@ let offsetY = 0;
 // Platform, cannon, projectile, and collectable variables
 let platforms = [];
 let cannons = [];
-const cannonWidth = 118;
+const cannonWidth = 111;
 const cannonHeight = 80;
 let projectiles = [];
 const defaultProjectileWidth = 24;
